@@ -12,4 +12,7 @@
 
 ## Deployment
   - Ansible 
+  - Docker 
+  - K8s
+  - Cloud 
   
