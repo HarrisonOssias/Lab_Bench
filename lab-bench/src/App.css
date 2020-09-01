@@ -7,12 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+hr{
+  border-style: none;
+  border-top: dotted 6px;
+  border-color: black;
+  width: 50px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
 
 .auth-inner {
   width: 450px;
@@ -29,6 +36,29 @@ code {
   text-align: center;
 }
 
+.feature-icon{
+  text-align:center;
+  font:200px;
+}
+
+.footer{
+  background-color: rgb(162, 175, 175);
+  padding-top: 50px;
+
+}
+
+.header{
+  
+  margin-top: 150px;
+  margin-left: 50px;
+  width:450px;
+  text-align: left;
+}
+
+.header p {
+  color: gray;
+}
+
 .home {
   padding-top: 56px; 
 }
@@ -38,3 +68,13 @@ code {
   margin-bottom: 4px;
 }
 
+.top {
+  height: 400px;
+}
+
+.top img{
+  position: absolute;
+  float: right;
+  top: 80px;
+  left: 50%;
+}

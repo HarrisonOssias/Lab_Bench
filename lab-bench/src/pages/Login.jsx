@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
 import LocalNavbar from '../components/LocalNavbar';
+import Footer from '../components/Footer';
 import '../App.css'
 
 export default function Login(){
@@ -29,7 +30,9 @@ export default function Login(){
                 <p className='split'>-   or   -</p>
                 <a href='/signup'> Create an account! </a>
                 </Form>
-            </Container>
+            </Container>    
+            <p> need to fix to bottom!!</p>
+        <Footer/>
         </div>
     </div>);
 }

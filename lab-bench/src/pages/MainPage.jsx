@@ -2,8 +2,13 @@ import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 import LocalNavbar from '../components/LocalNavbar';
+import FeatureCard from '../components/FeatureCard';
+import Footer from '../components/Footer';
 
 import '../App.css'
 
@@ -15,6 +20,34 @@ export default function MainPage(){
         <div className='home'>
         <Container>
             {/* Restructure to array mapping */}
+            
+            <div className='top'>
+                <div className='header'>
+                    <h1>Welcome to the future of learning</h1>
+                    <p>With the power of technology we can create a more connected learning experience that allows students to create a meaningful connection with their acamdemic content</p>
+                    <Button variant='outline-success'>Contact us today!</Button>
+                </div>
+                <img src='https://cdn3.iconfinder.com/data/icons/e-learning-fill-outline-1/64/Alternative-distance-learning-training_1-512.png' alt='header'/>
+            </div>
+            <hr/>
+
+            <h1>Create a customized class that's right for your course.</h1> 
+            <Container fluid>
+                <Row>
+                    <Col>
+                        <FeatureCard icon='alarmOnIcon'/>
+                    </Col>
+                    <Col>
+                        <FeatureCard icon='map'/>
+                    </Col>
+                    <Col>
+                        <FeatureCard icon='star'/>
+                    </Col>
+                </Row>
+            </Container>
+            <hr/>
+
+            <h1>How it works</h1>
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -52,8 +85,10 @@ export default function MainPage(){
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <br/>
+            <hr/>
+
         </Container>
+        <Footer/>
         </div>
     </div>)
 }
