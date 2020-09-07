@@ -8,7 +8,7 @@ import '../App.css'
 
 const Footer = () => {
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer-small">
       <Container className="text-center text-md-left">
         <Row>
           <Col md="6">
@@ -18,22 +18,8 @@ const Footer = () => {
               content.
             </p>
           </Col>
+            <p> links to socials? </p>
           <Col md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>

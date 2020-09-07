@@ -36,6 +36,21 @@ code {
   text-align: center;
 }
 
+.sideList{
+  padding-left: 0px;
+}
+
+.chapter{
+  padding: 20px 0px 20px;
+  border-style: solid;
+  border-width: 1px;
+  list-style-position: inside; 
+}
+
+.course-text{
+  padding: 5%
+}
+
 .feature-icon{
   text-align:center;
   font:200px;
@@ -44,7 +59,18 @@ code {
 .footer{
   background-color: rgb(162, 175, 175);
   padding-top: 50px;
-
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 220px;
+}
+.footer-small{
+  background-color: rgb(162, 175, 175);
+  padding-top: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 150px;
 }
 
 .header{
@@ -61,11 +87,42 @@ code {
 
 .home {
   padding-top: 56px; 
+  padding-bottom: 220px ;
+  /* Dynamic set above for changing footer content? */
+}
+.home-small {
+  padding-top: 56px; 
+  padding-bottom: 150px ;
+  /* Dynamic set above for changing footer content? */
+}
+
+.no-padding{
+  padding: 0px;
+}
+
+.page {
+  position: relative;
+  min-height: 100vh;
+}
+
+.sideBar{
+  background-color: gray;
+  color: white;
+  height: 100%;
+  padding: 0px;
 }
 
 .split{
   margin-top: 5px;
   margin-bottom: 4px;
+}
+
+.tool{
+  width: 700px;
+  height:500px;
+  text-align: center;
+  display: block;
+
 }
 
 .top {
@@ -77,4 +134,15 @@ code {
   float: right;
   top: 80px;
   left: 50%;
+}
+
+.video-container{
+  widows: 100%;
+  background-color: black;
+  padding-bottom: -5px;
+}
+.video {
+  width: 72vw; 
+  height : 40vw;
+  border: none;
 }

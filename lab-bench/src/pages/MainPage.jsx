@@ -15,10 +15,9 @@ import '../App.css'
 export default function MainPage(){
 
 
-    return(<div>
+    return(<div className='page'>
         <LocalNavbar/>
-        <div className='home'>
-        <Container>
+        <Container className='home'>
             {/* Restructure to array mapping */}
             
             <div className='top'>
@@ -86,9 +85,9 @@ export default function MainPage(){
                 </Carousel.Item>
             </Carousel>
             <hr/>
-
+             
         </Container>
         <Footer/>
-        </div>
+          
     </div>)
 }

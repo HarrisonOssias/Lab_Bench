@@ -16,9 +16,9 @@ export default function LocalNavbar(){
             <Nav.Link href="/contact">Contact Us</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
             <NavDropdown title="Courses" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">APSC100</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">CHEM302</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">ELEC272</NavDropdown.Item>
+                <NavDropdown.Item href="/course/APSC100">APSC100</NavDropdown.Item>
+                <NavDropdown.Item href="/course/CHEM302">CHEM302</NavDropdown.Item>
+                <NavDropdown.Item href="/course/ELEC272">ELEC272</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Add a course</NavDropdown.Item>
             </NavDropdown>

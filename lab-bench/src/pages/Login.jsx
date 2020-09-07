@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 import '../App.css'
 
 export default function Login(){
-    return (<div>
+    return (<div className='page'>
         <LocalNavbar/>
         <div className='home'>
             <Container className='auth-inner center-text'>
@@ -31,7 +31,6 @@ export default function Login(){
                 <a href='/signup'> Create an account! </a>
                 </Form>
             </Container>    
-            <p> need to fix to bottom!!</p>
         <Footer/>
         </div>
     </div>);
